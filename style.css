@@ -1,0 +1,514 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*___________header___________*/
+.container:not(h3){
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(243, 252, 243);
+    display: inline-block;
+}
+.container h3{
+    float: left;
+    padding-top: 4vh;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+} 
+.container h3 span{
+    font-weight: normal;
+    font-style: oblique;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 4vh;
+}
+nav button{
+    padding: 0px 20px;
+    margin: 0px 5px;
+    border: 0.5px solid black;
+}
+
+.redeem{
+   background-color: blue;color: white;
+}
+.redeem:hover{
+    background-color: white;
+    color: blue;
+}
+.upgrade{
+    background-color: rgb(233, 64, 64);
+    color: white;
+}
+.upgrade:hover{
+    background-color: white;
+    color: red;
+}
+.help{
+    background-color: white;
+    color: black;
+}
+.help:hover{
+    background-color: rgb(218, 210, 210);
+    color: rgb(53, 50, 50);
+    
+}
+.login{
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    padding: 1px;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+}
+.login:hover{
+    background-color: rgb(188, 211, 204);
+}
+.login button{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+ 
+}
+.login button:hover{
+    background-color: rgb(188, 211, 204);
+}
+/*_____________sidelinks________*/
+.sidelinks{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.sidelinks a{
+    text-decoration: none;
+    color: rgb(68, 62, 62);
+    margin: 0px 20px;
+    font-size: 18px;
+    padding: 14px
+}
+.sidelinks a:hover{
+    background-color: rgb(245, 241, 241);
+}
+.sidelinks label{
+    cursor: pointer;
+    font-size: 25px;
+}
+/*_______________searchbar*/
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(71, 85, 206);
+}
+.languages{
+    border: 1px solid black;
+    padding: 10px 20px 0px 100px;
+    background-color: rgb(224, 163, 31);
+    height: 50px;
+    cursor: pointer;
+}
+#fa{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.languages h3{
+    float: left;
+}
+
+form{
+    border: 1px solid black;
+    height: 50px;
+    background-color: white; border: 1px solid black;
+
+}
+.form input{
+    width: 400px;
+    outline: none;
+    border: none;
+}
+.form input[placeholder]{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.form #search-icon{
+    height: 49px;
+    background-color: rgb(199, 190, 190);
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(76, 76, 189);
+}
+.form #search-icon:hover{
+    background-color: rgb(235, 223, 223);
+}
+/*________________blackfriday_________________*/
+.adds{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.blackfriday{
+    display: inline-block;
+    border: 1px solid rgb(243, 238, 238);
+    min-width: 50%;
+    padding: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgb(230, 216, 216);
+}
+.blackfriday ul{
+   float: left;
+   padding: 50px 0px;
+}
+.blackfriday img{
+    padding: 20px;
+}
+.blackfriday h3{
+    padding: 20px;
+    color: rgb(43, 43, 177);
+}
+
+.blackfriday ul li{
+    line-height: 28px;
+}
+
+
+.fairytale{
+    background-color: aquamarine;
+    border: 1px solid rgb(226, 220, 220);
+    width: 300px;
+    display: block;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgb(207, 204, 204);
+}
+
+.fairytale h4{
+    padding: 5px 0px 0px 0px;
+    font-size: 18px;
+}
+.fairytale p{
+    font-size: 20px;
+    padding: 20px;
+    color: blue;
+}
+.fairytale i{
+    padding: 20px;
+    cursor: pointer;
+}
+.fairytale #left{
+    font-size: 24px;
+    color: blue;
+}
+.fairytale #right{
+    font-size: 24px;
+    color: red;
+   
+}
+.fairytale h5{
+    background-color: rgb(54, 54, 168);
+    width: 160px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    position: relative;
+    left: 80px;
+
+}
+.fairytale h3{
+    background-color: gray;
+    width: 30px;
+    position: relative;
+    left: 140px;
+    margin-top: 20px;
+}
+.fairytale h6{
+    margin-top: 20px;
+}
+/*______________four-photos_____________*/
+menu{
+    width: 100%;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 25px;
+}
+menu h5{
+    color: blue;
+    font-size: 18px;
+    margin-top: 20px;
+}
+menu a{
+    text-decoration: none;
+    color: blue;
+}
+menu a:hover{
+    text-decoration: underline;
+}
+.item-one{
+    margin-top: 100px;
+    width: 250px;
+    border: 1px solid rgb(223, 214, 214);
+    box-shadow: 0px 0px 20px rgb(226, 218, 218);
+    float: left;
+  
+}
+
+ .item-two{
+    margin-top: 100px;
+    width: 250px;
+    border: 1px solid rgb(218, 206, 206);
+    box-shadow: 1px 1px 10px rgb(214, 206, 206);
+}
+
+
+.item-three{
+    margin-top: 100px;
+    width: 250px;
+    border: 1px solid rgb(233, 224, 224);
+    box-shadow: 1px 1px 10px rgb(182, 177, 177);
+}
+
+
+.item-four{
+    margin-top: 100px;
+    width: 250px;
+    border: 1px solid rgb(219, 214, 214);
+    box-shadow: 1px 1px 10px rgb(211, 204, 204);
+}
+/*_______________-learn-more______________*//
+article{
+  
+}
+article h1{
+    font-size: 24px;
+    color: blue;
+
+}
+article .wrapper{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(212, 196, 196);
+    border-radius: 20px;
+}
+article .wrapper h5{
+    margin-top: 20px;
+    padding: 20px;
+   
+}
+.wrapper p{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper a{
+    text-decoration: none;
+    color: blue;
+   
+}
+.wrapper img{
+    border-radius: 50%;
+}
+.wrapper .product-one{
+    border: 1px solid rgb(241, 233, 233);
+    margin: 0px 20px 0px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(177, 168, 168);
+}
+
+.wrapper .product-two{
+    border: 1px solid rgb(241, 228, 228);
+    margin: 0px 20px 0px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(172, 161, 161);
+}
+.wrapper .product-three{
+    border: 1px solid rgb(238, 229, 229);
+    margin: 0px 20px 0px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(177, 172, 172);
+}
+.wrapper .product-four{
+    border: 1px solid rgb(230, 223, 223);
+    padding: 10px;
+    margin: 0px 20px 0px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(177, 165, 165);
+}
+
+
+
+.wrapper .product-one:Hover{
+    background-color: rgb(57, 57, 201);
+    color: white;
+}
+.wrapper .product-one:hover a{
+    color: white;
+}
+.wrapper .product-two:Hover{
+    background-color: rgb(57, 57, 201);
+    color: white;
+}
+.wrapper .product-two:hover a{
+    color: white;
+}
+
+.wrapper .product-three:Hover{
+    background-color: rgb(57, 57, 201);
+    color: white;
+}
+.wrapper .product-three:hover a{
+    color: white;
+}
+
+
+.wrapper .product-four:Hover{
+    background-color: rgb(57, 57, 201);
+    color: white;
+}
+.wrapper .product-four:hover a{
+    color: white;
+}
+
+/*_______________join_____________*/
+.join{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 246, 246);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+}
+.join p{
+    text-align: start;
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+
+.join h3{
+    line-height: 50px;
+}
+.join a{
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+}
+.join a{
+    margin-top: 50px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 6px 3px;
+    color: blue;
+    border-radius: 5px;
+
+}
+.join .joinone{
+    margin: 40px 30px 40px 30px;
+    border: 1px solid rgb(197, 186, 186);
+    box-shadow: 1px 1px 10px rgb(177, 172, 172);
+}
+.join .jointwo{
+    margin: 40px 30px 40px 30px;
+    border: 1px solid rgb(190, 181, 181);
+    box-shadow: 1px 1px 10px rgb(177, 172, 172);
+}
+.join .jointhree{
+    margin: 40px 30px 40px 30px;
+    border: 1px solid rgb(192, 180, 180);
+    box-shadow: 1px 1px 10px rgb(177, 172, 172);
+}
+
+
+
+/*______________logos________________*/
+.logo{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 1px solid rgb(194, 186, 186);
+}
+.logo i{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.logo i:hover{
+    background-color: grey;
+}
+/*______________footer_______________*/
+footer{
+    width: 100%;
+    display: flex;
+    column-count: 4;
+    padding: 20px;
+    color: rgb(99, 92, 92);
+}
+footer h4{
+    padding: 30px;
+    color: rgb(48, 44, 44);
+}
+footer .licence{
+    margin-top: 40px;
+}
+footer span{
+    float: right;
+    margin-top: 40px;
+    color: rgb(47, 47, 48);
+}
+footer p{
+    line-height: 25px;
+}
+footer .left,
+.right,
+.center,
+.licence{
+   padding: 20px;
+}
+/*_____________privacy______________*/
+.pravacy{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(160, 153, 153);
+}
+.pravacy a{
+    text-decoration: none;
+    color: rgb(41, 38, 38);
+}
+.pravacy a:hover{
+    text-decoration: underline;
+}
+
+
+
+
